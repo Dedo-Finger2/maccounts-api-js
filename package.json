@@ -1,0 +1,45 @@
+{
+  "name": "maccounts-api-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": {
+    "name": "Antonio Mauricio",
+    "email": "antonioimportant@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Antonio Mauricio",
+      "email": "antonioimportant@gmail.com"
+    }
+  ],
+  "scripts": {
+    "dev": "node --env-file .env --watch src/server.js",
+    "test": "",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "eslint": "^9.15.0",
+    "globals": "^15.12.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.4.1"
+  }
+}
